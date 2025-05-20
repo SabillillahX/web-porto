@@ -12,6 +12,16 @@ const nextConfig: NextConfig = {
     // Peringatan tetap ada tapi tidak akan menggagalkan build
     ignoreDuringBuilds: true,
   },
+  // Redirect dari root path ke /home
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/home',
+        permanent: true,
+      },
+    ];
+  },
   // Aktifkan fitur experimental jika perlu
   // experimental: {
   //   appDir: true,
