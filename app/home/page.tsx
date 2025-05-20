@@ -17,7 +17,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.7 }}
         >
-          Hi, I'm Brown Mayers
+          Hi, I&apos;m Brown Mayers
         </motion.h1>
         <motion.h2
           className="text-xl md:text-2xl text-indigo-400 font-semibold mb-6"

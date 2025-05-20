@@ -1,6 +1,8 @@
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../src/lib/utils";
 
+// This empty interface is intentionally kept for future extensions
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
